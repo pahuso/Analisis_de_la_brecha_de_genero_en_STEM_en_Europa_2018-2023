@@ -1,3 +1,28 @@
-# Analisis_de_la_brecha_de_genero_en_STEM_en_Europa_2018-2023
+# 📊 Analysis of Gender Gap in STEM Graduates (Europe)
 
-Los archivos consisten en un dataset en csv proporcionado por la bibliografía junto con un archivo en jupiter notebooks donde se analiza el dataset en profundidad, extrayendo así conclusiones interesantes acerca de la brecha de género acerca de la porción de estudiantes de Tecnología en diferentes países europeos
+## 📌 Project Overview
+This project analyzes the disparity between male and female graduates in STEM (Science, Technology, Engineering, and Mathematics) fields across European countries. Using data from 2018-2019, the goal is to visualize the "Gender Gap" and identify which countries are closest to equality.
+
+**Key Question:** Which European countries have the largest and smallest gender gaps in STEM education?
+
+## 📂 Dataset
+The dataset includes statistics on graduates by:
+- **Country**
+- **Sex** (Male, Female, Total)
+- **Year** (2018, 2023)
+- **Value** (Rate of graduates)
+
+## 🛠️ Technologies Used
+- **Python** (Data Analysis)
+- **Pandas** (Data Cleaning & Manipulation)
+- **Matplotlib & Seaborn** (Data Visualization)
+
+## 📈 Key Findings
+1. **The Gap is Universal:** Across almost all European countries, male graduates significantly outnumber female graduates in STEM.
+2. **Top Performers:** Countries like Ireland show the highest overall rates of STEM graduates.
+3. **Inequality Index:** The "Dumbbell Plot" (see notebook) visually demonstrates that while some countries have high total numbers, the distance between men and women remains large.
+
+## 🚀 How to Run This Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pahuso/stem-gender-gap-europe.git
